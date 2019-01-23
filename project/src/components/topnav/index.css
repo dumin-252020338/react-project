@@ -25,3 +25,6 @@
 #topnav .ant-carousel .slick-slide h3 {
   color: #fff;
 }
+#topnav p{
+  margin: 0 !important;
+}

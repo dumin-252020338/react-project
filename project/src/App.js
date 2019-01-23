@@ -1,36 +1,52 @@
-import React, { Component } from 'react';
-import './App.css';
+import React, { Component } from 'react'; 
+import { Router, Switch, Route, NavLink, Link } from 'react-router-dom';
+import './App.css'; 
 import './components/common/css/reset.css';
 import './components/common/iconfont/iconfont.css';
 import 'antd/dist/antd.css'; 
 
-import Location from './components/location/index.jsx';
-import Search from './components/search/index.jsx';
-import Topnav from './components/topnav/index.jsx';
-import Scarebuy from './components/scarebuy/index.jsx';
-import Promotion from './components/promotion/index.jsx';
-import Recommend from './components/recommend/index.jsx';
 
+
+import Home from './components/router/home/index.jsx'
+import Layout from './components/layout/index.jsx';
 class App extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            title: '饿了么',
+            link: [
+                {
+                    name: '首页',
+                    to: '/'
+                },
+                {
+                    name: '发现',
+                    to: '/find'
+                },
+                {
+                    name: '订单',
+                    to: '/list'
+                },
+                {
+                    name: '我的',
+                    to: '/my'
+                }
+            ]
+        }
+    }
     render() {
-      return (
-        <div id="App">
-            {/* 顶部定位 */}
-            <Location></Location>
-            {/* 吸顶盒 搜索框 */}
-            <Search></Search>
-            {/* 分类导航 */ }
-            <Topnav></Topnav>  
-            {/* 抢购栏 */}
-            <Scarebuy></Scarebuy>
-            {/* 促销 */}
-            <Promotion></Promotion>
-            {/* 推荐商家 */}
-            <Recommend></Recommend>
-        </div>
-      
-    );
-  }
+        return (
+            <div id="app">
+                    <a to={'/'}>首页</a>
+                {/* <Home></Home> */}
+                {/* <Main></Main> */}
+                {/* <Router>
+                    <Route path="/" component={Home} /><Route>
+                </Route>
+            </Router> */}
+            </div>
+        )
+    }
 }
 
 export default App;
