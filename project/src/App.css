@@ -1,0 +1,47 @@
+/**/
+#App{
+  /* height: 2000rem; */
+  overflow: visible;
+}
+/* 定位 */
+#location{
+  display:flex;
+  align-items: center;
+  height: 1rem;
+  background-color: rgba(0, 142, 255, 0.8);
+  color: #fff;
+  padding: 0 .1rem;
+}
+#location .icon-locationfill .icon-xiajiantou{
+  font-size:.35rem;
+}
+#location .where{
+  width: 70%;
+  margin: 0 .1rem;
+}
+/* 搜索 吸顶盒效果 */
+#search{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  bottom: 0;
+  /* position: relative; */
+  display: flex;
+  align-items: center;
+  height: 1rem;
+  background-color: rgba(0, 142, 255, 0.8);
+
+}
+#search i{
+  position: absolute;
+  top: .3rem;
+  left: 1rem;
+}
+#search .search{
+  height: .7rem;
+  width: 90%;
+  margin: 0 auto;
+  text-indent: 1rem;
+  letter-spacing:.1rem;
+}
+/* 分类导航 */
