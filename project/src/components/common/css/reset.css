@@ -28,7 +28,6 @@ html {
 }
 
 body {
-
     background-color: #fff;
     font-size: 12px;
 }
@@ -46,13 +45,9 @@ a {
 img {
     vertical-align: top;
 }
-ul{
+li{
     list-style: none;
 }
 ol,ul,dl{
     margin: 0 !important;
-}
-
-.pd20{
-    padding: 0 .2rem;
 }
