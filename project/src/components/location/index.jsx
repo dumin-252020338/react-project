@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Carousel } from 'antd';
 import './index.css';
 class Location extends Component {
     render() {

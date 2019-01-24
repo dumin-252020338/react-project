@@ -1,51 +1,36 @@
-import React, { Component } from 'react'; 
-import { Router, Switch, Route, NavLink, Link } from 'react-router-dom';
-import './App.css'; 
-import './components/common/css/reset.css';
-import './components/common/iconfont/iconfont.css';
-import 'antd/dist/antd.css'; 
+import React, {Component} from 'react';
+import './index.css'
+import { BrowserRouter as Router, Route } from "react-router-dom";
+
+import Home from './components/router/home/index.jsx';
+import Find from './components/router/find/index.jsx';
+import List from './components/router/list/index.jsx';
+import My from './components/router/my/index.jsx';
+
+import RecommendSort from './components/router/recommend/RecommendSort/index';
+import RecommendDistance from './components/router/recommend/RecommendDistance/index';
+import RecommendBrand from './components/router/recommend/RecommendBrand/index';
+import RecommendFilter from './components/router/recommend/RecommendFilter/index';
 
 
-
-import Home from './components/router/home/index.jsx'
 import Layout from './components/layout/index.jsx';
+
 class App extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            title: '饿了么',
-            link: [
-                {
-                    name: '首页',
-                    to: '/'
-                },
-                {
-                    name: '发现',
-                    to: '/find'
-                },
-                {
-                    name: '订单',
-                    to: '/list'
-                },
-                {
-                    name: '我的',
-                    to: '/my'
-                }
-            ]
-        }
-    }
     render() {
         return (
-            <div id="app">
-                    <a to={'/'}>首页</a>
-                {/* <Home></Home> */}
-                {/* <Main></Main> */}
-                {/* <Router>
-                    <Route path="/" component={Home} /><Route>
-                </Route>
-            </Router> */}
-            </div>
-        )
+            <Router>
+                <Layout>
+                    <Route exact path='/' component={Home}></Route>
+                    <Route path='/find' component={Find}></Route>
+                    <Route path='/list' component={List}></Route>
+                    <Route path='/my' component={My} ></Route>
+                    <Route path='/recommend/sort' component={RecommendSort} ></Route>
+                    <Route path='/recommend/distance' component={RecommendDistance} ></Route>
+                    <Route path='/recommend/brand' component={RecommendBrand} ></Route>
+                    <Route path='/recommend/filter' component={RecommendFilter} ></Route>
+                </Layout>
+            </Router>
+        );
     }
 }
 

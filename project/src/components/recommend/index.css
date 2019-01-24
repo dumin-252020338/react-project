@@ -1,7 +1,25 @@
 /* 推荐商家 */
-#recommend{
+#recommend .recommendTitle{
   text-align: center;
 }
-#recommend img{
+#recommend .recommendTitle img{
   height: 1rem;
+}
+#recommend .recommendTop{
+  position: sticky;
+  top: 1rem;
+  height: .8rem;
+  display:flex;
+  justify-content: space-around;
+  align-items:center;
+  background-color: rgb(0, 142, 255);
+  z-index: 9999;
+  color:#fff;
+}
+#recommend .recommendTop span{
+  height: 1rem;
+  color:#fff;
+}
+#recommend .list img{
+  height: 3.5rem;
 }

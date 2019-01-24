@@ -7,26 +7,22 @@ class Footer extends Component {
     render() {
         return (
             <div id={'footer'}>
-                {/* <NavLink to={'/'}>
+                <NavLink exact to={'/'} className="footerNav"  activeClassName='active'>
                     <i className={'iconfont icon-home'}></i>
                     <p>首页</p> 
-                </NavLink> */}
-                <a href="http://www.baidu.com" className="footerNav">
-                    <i className={'iconfont icon-home'}></i>
-                    <p>首页</p>
-                </a>
-                <a href="" className="footerNav">
+                </NavLink>
+                <NavLink to={'/find'} className="footerNav">
                     <i className={'iconfont icon-search'}></i>
-                    <p>发现</p>
-                </a>
-                <a href="" className="footerNav">
+                    <p>发现</p> 
+                </NavLink>
+                <NavLink to={'/list'} className="footerNav">
                     <i className={'iconfont icon-cartfill'}></i>
-                    <p>订单</p>
-                </a>
-                <a href="" className="footerNav">
+                    <p>订单</p> 
+                </NavLink>
+                <NavLink to={'/my'} className="footerNav">
                     <i className={'iconfont icon-profile'}></i>
-                    <p>我的</p>
-                </a>
+                    <p>我的</p> 
+                </NavLink>
             </div>
         )
     }
