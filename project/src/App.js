@@ -6,6 +6,7 @@ import Home from './components/router/home/index.jsx';
 import Find from './components/router/find/index.jsx';
 import List from './components/router/list/index.jsx';
 import My from './components/router/my/index.jsx';
+import Search from './components/router/search/index.jsx';
 
 import RecommendSort from './components/router/recommend/RecommendSort/index';
 import RecommendDistance from './components/router/recommend/RecommendDistance/index';
@@ -24,6 +25,7 @@ class App extends Component {
                     <Route path='/find' component={Find}></Route>
                     <Route path='/list' component={List}></Route>
                     <Route path='/my' component={My} ></Route>
+                    <Route path='/search' component={Search} ></Route>
                     <Route path='/recommend/sort' component={RecommendSort} ></Route>
                     <Route path='/recommend/distance' component={RecommendDistance} ></Route>
                     <Route path='/recommend/brand' component={RecommendBrand} ></Route>
