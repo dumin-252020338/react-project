@@ -1,36 +1,4 @@
-/* 搜索页面
-#searchPage .searchCon{
-  position: relative;
-  height: 1rem;
-  margin: .2rem;
-  line-height: 1rem;
-  text-align: center;
-}
-#searchPage .searchCon i.icon-back{
-    color: black;
-    font-size: .4rem;
-    line-height:  1rem;
-    margin: 0 .2rem 0 .1rem;
-}
-#searchPage .searchCon i.icon-search{
-  position: absolute;
-  top: .07rem;
-  left: .8rem;
-  line-height:  1rem;
-  color: #ccc;
-}
-#searchPage .searchCon .search{
-  height: .7rem;
-  width: 90%;
-  margin: 0 auto;
-  text-indent: .5rem;
-  border-radius: .3rem;
-  outline: none;
-  border:1px solid #ddd;
-}
-#searchPage .searchCon .search:focus{
-    border: 1px solid rgb(179, 139, 139);
-}
+/* 搜索页面 */
 #searchPage .hotSearch p{
     margin: .2rem !important;
     font-size: .3rem;
@@ -61,4 +29,4 @@
 }
 #searchPage .hotSearch .hotWord .keyword:hover span{
     color: #ccc;
-} */
+}
