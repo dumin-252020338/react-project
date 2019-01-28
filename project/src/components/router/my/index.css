@@ -1,0 +1,77 @@
+#my{
+    /* height: 2rem; */
+    /* background-color: rgba(0, 142, 255, 0.8); */
+    /* text-align: center; */
+    color: #fff;
+
+}
+#my p{
+    margin: 0 !important;
+}
+/* 我的 */
+#my .title{
+    font-size: .4rem;
+    line-height: .8rem;
+    text-align: center;
+    background-color: rgba(0, 142, 255, 0.8);
+}
+#my .title p{
+    height: .8rem;
+    width: 1rem;
+    margin: 0 auto !important;
+}
+/* 立即登录 注册 */
+#my .log-reg-module{
+    padding-left: .5rem;
+    background-color: rgba(0, 142, 255, 0.8);
+
+}
+#my .log-reg-module i.logo{
+    font-size: 2rem;
+    vertical-align: middle;
+
+}
+#my .log-reg-module .log-reg{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 2rem;
+}
+#my .log-reg-module .log-reg .link a{
+    font-size: .4rem;
+}
+/* 钱包 优惠 金币 */
+#my .list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 2rem;
+    font-size: .3rem;
+    text-align: center;
+}
+#my .list .items{
+    width: 33.333%;
+    color: rgb(98, 96, 96);
+}
+#my .list .first, .second{
+    border-right: 1px solid;
+
+}
+/* 我的收藏 我的客服 金币商城 加盟合作 */
+#my .server{
+    /* font-size: .5rem; */
+}
+#my .server li{
+    height: 1rem;
+    line-height: 1rem;
+    background-color: rgba(0, 142, 255, 0.8);
+    margin-bottom: .05rem;
+    padding-left: .5rem;
+}
+#my .server li a{
+    text-indent: 2rem;
+}
+#my .server i{
+    font-size: .5rem;
+    margin: .3rem;
+    vertical-align: middle;
+}

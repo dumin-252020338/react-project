@@ -12,6 +12,7 @@
 #topnav .item a{
   width: 20%;
   text-align: center;
+  color: #000;
 }
 #topnav img{
   width: .75rem;

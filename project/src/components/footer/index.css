@@ -3,7 +3,7 @@
   position:fixed;
   bottom: 0;
   width: 100%;
-  background-color:rgba(0, 142, 255, 0.8);
+  background-color:rgba(0, 142, 255, 1);
   display:flex;
   justify-content: space-between;
   align-items:center;
@@ -14,7 +14,7 @@
   text-align: center;
 }
 #footer .footerNav p, i{
-  color:#fff;
+  /* color:#fff; */
 }
 #footer .footerNav p{
   margin: 0 !important;
