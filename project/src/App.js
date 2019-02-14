@@ -12,6 +12,9 @@ import RecommendSort from './components/router/recommend/RecommendSort/index';
 import RecommendDistance from './components/router/recommend/RecommendDistance/index';
 import RecommendBrand from './components/router/recommend/RecommendBrand/index';
 import RecommendFilter from './components/router/recommend/RecommendFilter/index';
+// 商品列表
+import Recommend2 from './components/router/recommend/Recommend2/index';
+import Tea1 from './components/router/recommend/Recommend2/Tea1/index';
 
 import Login from './components/router/login/index.jsx';
 import Regist from './components/router/regist/index.jsx';
@@ -33,6 +36,10 @@ class App extends Component {
                     <Route path='/recommend/distance' component={RecommendDistance} ></Route>
                     <Route path='/recommend/brand' component={RecommendBrand} ></Route>
                     <Route path='/recommend/filter' component={RecommendFilter} ></Route>
+                    {/* 商家商品列表 */}
+                    <Route path='/recommend/2' component={Recommend2} ></Route>
+                    <Route path='/recommend/2/tea1' component={Tea1} ></Route>
+                
                     {/* 登录 注册 */}
                     <Route path='/login' component={Login} ></Route>
                     <Route path='/regist' component={Regist} ></Route>
