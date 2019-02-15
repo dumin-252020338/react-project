@@ -6,22 +6,22 @@ class Promotion extends Component {
         return (
             <div id={'promotion'}>
                 <Carousel autoplay>
-                    <a href="">
+                    <a href="/">
                         <img src={require("../../static/img/promotion/1.webp")} alt="" />
                     </a>
-                    <a href="">
+                    <a href="/">
                         <img src={require("../../static/img/promotion/2.webp")} alt="" />
                     </a> 
-                    <a href="">
+                    <a href="/">
                         <img src={require("../../static/img/promotion/3.webp")} alt="" />
                     </a>
-                    <a href="">
+                    <a href="/">
                         <img src={require("../../static/img/promotion/4.webp")} alt="" />
                     </a>
-                    <a href="">
+                    <a href="/">
                         <img src={require("../../static/img/promotion/5.webp")} alt="" />
                     </a>
-                    <a href="">
+                    <a href="/">
                         <img src={require("../../static/img/promotion/2.webp")} alt="" />
                     </a>
                 </Carousel>

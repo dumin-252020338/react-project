@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
-import { Carousel } from 'antd';
 import './index.css';
 
 class Footer extends Component {

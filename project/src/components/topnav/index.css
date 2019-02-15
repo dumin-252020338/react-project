@@ -9,7 +9,7 @@
   display: flex !important;
   flex-wrap: wrap !important;
 }
-#topnav .item a{
+#topnav .item div{
   width: 20%;
   text-align: center;
   color: #000;

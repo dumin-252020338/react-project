@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 
 import './index.css'
-import ShoppingCart from '../../../ShoppingCart/index.jsx';
+import ShoppingCart from '../../../../ShoppingCart/index.jsx';
 import {Link, NavLink } from 'react-router-dom';
 
-class Recommend2 extends Component {
+class RecommendCommon extends Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -58,4 +58,4 @@ class Recommend2 extends Component {
         );
     }
 }
-export default Recommend2;
+export default RecommendCommon;

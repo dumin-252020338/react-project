@@ -78,7 +78,7 @@ class Recommend extends Component {
                 </div>
                 <div className='recommendTop'>
                     <Dropdown overlay={sort} trigger={['click']} >
-                        <a className="ant-dropdown-link" href="#">综合排序
+                        <a className="ant-dropdown-link" href="/">综合排序
                             <i className="iconfont icon-xiajiantou"></i>
                         </a>
                     </Dropdown>
@@ -89,7 +89,7 @@ class Recommend extends Component {
                         <span>品质联盟</span>
                     </Link>
                     <Dropdown overlay={filter} trigger={['click']} placement='bottomCenter'>
-                        <a className="ant-dropdown-link" href="#">筛选
+                        <a className="ant-dropdown-link" href="/">筛选
                             <i className="iconfont icon-filter"></i>
                         </a>
                     </Dropdown>

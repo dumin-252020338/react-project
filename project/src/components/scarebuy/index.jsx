@@ -4,10 +4,10 @@ class Scarebuy extends Component {
     render() {
         return (
             <div id={'scarebuy'}>
-                <a href="">
+                <a href="/">
                     <img src={require("../../static/img/scarebuy/1.png")} alt="" />
                 </a>
-                <a href="">
+                <a href="/">
                     <img src={require("../../static/img/scarebuy/2.png")} alt="" />
                 </a>   
             </div>

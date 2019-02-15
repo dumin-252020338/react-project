@@ -4,17 +4,14 @@ import {
   Input,
   Tooltip,
   Icon,
-  Cascader,
   Select,
   Row,
   Col,
   Checkbox,
   Button,
-  AutoComplete
 } from "antd";
 
 const { Option } = Select;
-const AutoCompleteOption = AutoComplete.Option;
 
 class Regist extends Component {
     state = {
@@ -67,7 +64,6 @@ class Regist extends Component {
 
     render() {
         const { getFieldDecorator } = this.props.form;
-        const { autoCompleteResult } = this.state;
 
         const formItemLayout = {
         labelCol: {
@@ -99,10 +95,6 @@ class Regist extends Component {
                 <Option value="87">+87</Option>
             </Select>
         );
-
-        const websiteOptions = autoCompleteResult.map(website => (
-            <AutoCompleteOption key={website}>{website}</AutoCompleteOption>
-        ));
 
     return (
         <Form onSubmit={this.handleSubmit}>

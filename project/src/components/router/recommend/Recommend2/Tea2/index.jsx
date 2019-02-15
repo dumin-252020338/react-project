@@ -1,9 +1,10 @@
 import React, { Component } from "react";
-import {NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { Button } from 'antd';
 import 'antd/dist/antd.css';
 
 import './index.css'
+
 class Tea1 extends Component {
     constructor(props) {
         super(props);
@@ -11,53 +12,35 @@ class Tea1 extends Component {
             title: 'teaDetail',
             link: [
                 {
-                    name: '红茶玛奇朵',
+                    name: '绿茶玛奇朵',
                     to: '/recommend/2/tea1/detail',
                     url: require('../../../../../static/img/recommend/tea/1.jpg'),
-                    pice: "$10"
+                    pice: '$14'
                 },
                 {
-                    name: '波霸奶茶',
+                    name: '奶昔',
                     to: '/recommend/2/tea2/detail',
                     url: require('../../../../../static/img/recommend/tea/1.jpg'),
-                    pice: "$11"
+                    pice: '$15'
                 },
                 {
                     name: '四季奶青',
                     to: '/recommend/2/tea3/detail',
                     url: require('../../../../../static/img/recommend/tea/1.jpg'),
-                    pice: "$12"
+                    pice: '$16'
                 },
                 {
                     name: '奶茶',
                     to: '/recommend/2/tea4/detail',
                     url: require('../../../../../static/img/recommend/tea/1.jpg'),
-                    pice: "$13"
+                    pice: '$14'
                 },
                 {
                     name: '奶绿',
                     to: '/recommend/2/tea5/detail',
                     url: require('../../../../../static/img/recommend/tea/1.jpg'),
-                    pice: "$10"
-                },
-                {
-                    name: '奶绿1',
-                    to: '/recommend/2/tea5/detail',
-                    url: require('../../../../../static/img/recommend/tea/1.jpg'),
-                    pice: "$10"
-                },
-                {
-                    name: '奶绿2',
-                    to: '/recommend/2/tea5/detail',
-                    url: require('../../../../../static/img/recommend/tea/1.jpg'),
-                    pice: "$10"
-                },
-                {
-                    name: '奶绿3',
-                    to: '/recommend/2/tea5/detail',
-                    url: require('../../../../../static/img/recommend/tea/1.jpg'),
-                    pice: "$10"
-                },
+                    pice: '$14'
+                }
             ]
         }
     }

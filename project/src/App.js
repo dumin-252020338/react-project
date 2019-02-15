@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import './index.css'
 import { BrowserRouter as Router, Route } from "react-router-dom";
+import 'antd/dist/antd.css';
 
 import Home from './components/router/home/index.jsx';
 import Find from './components/router/find/index.jsx';
@@ -13,8 +14,9 @@ import RecommendDistance from './components/router/recommend/RecommendDistance/i
 import RecommendBrand from './components/router/recommend/RecommendBrand/index';
 import RecommendFilter from './components/router/recommend/RecommendFilter/index';
 // 商品列表
-import Recommend2 from './components/router/recommend/Recommend2/index';
+import Recommend2 from './components/router/recommend/Recommend2/common/index';
 import Tea1 from './components/router/recommend/Recommend2/Tea1/index';
+import Tea2 from './components/router/recommend/Recommend2/Tea2/index';
 
 import Login from './components/router/login/index.jsx';
 import Regist from './components/router/regist/index.jsx';
@@ -39,6 +41,7 @@ class App extends Component {
                     {/* 商家商品列表 */}
                     <Route path='/recommend/2' component={Recommend2} ></Route>
                     <Route path='/recommend/2/tea1' component={Tea1} ></Route>
+                    <Route path='/recommend/2/tea2' component={Tea2} ></Route>
                 
                     {/* 登录 注册 */}
                     <Route path='/login' component={Login} ></Route>
