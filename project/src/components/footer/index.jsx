@@ -16,7 +16,7 @@ class Footer extends Component {
                 </NavLink>
                 <NavLink to={'/list'} className="footerNav">
                     <i className={'iconfont icon-cartfill'}></i>
-                    <p>订单</p> 
+                    <p>购物车</p> 
                 </NavLink>
                 <NavLink to={'/my'} className="footerNav">
                     <i className={'iconfont icon-profile'}></i>
