@@ -1,0 +1,47 @@
+#tea{
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+#tea .store{
+    display: flex;
+    background-color:rgba(0, 142, 255, 1);
+}
+#tea .store a {
+    width: 25%;
+    color: #fff;
+}
+#tea .store a i{
+    font-size: .5rem;
+}
+#tea .store span{
+    height: .8rem;
+    line-height: .8rem;
+    text-align: center;
+    color: #fff;
+    font-size: .4rem;
+
+}
+#tea #list{ 
+    position: sticky;
+    top: 0rem;
+    bottom: 0;
+    height: 1rem;
+    line-height: 1rem;
+    text-align: center;
+    background-color:rgba(0, 142, 255, 1);
+    font-size: .3rem;
+  z-index: 9999;
+
+}
+#tea #list li{
+    height: 1rem;
+    float: left;
+    width: 20%;
+}
+#tea #list li:hover{
+    background-color: rgb(87, 137, 160);
+}
+#tea #list li a:hover {
+    color: #00ff6a;
+}

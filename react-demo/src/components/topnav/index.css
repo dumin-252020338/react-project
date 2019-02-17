@@ -1,0 +1,31 @@
+/* 分类导航 */
+#topnav{
+  height: 3.3rem;
+  overflow: hidden;
+  padding-top:.1rem;
+}
+#topnav .item{
+  height: 3.3rem;
+  display: flex !important;
+  flex-wrap: wrap !important;
+}
+#topnav .item div{
+  width: 20%;
+  text-align: center;
+  color: #000;
+}
+#topnav img{
+  width: .75rem;
+  height: .75rem;
+  margin: 0 auto;
+}
+#topnav .ant-carousel .slick-slide {
+  text-align: center;
+  overflow: hidden;
+}
+#topnav .ant-carousel .slick-slide h3 {
+  color: #fff;
+}
+#topnav p{
+  margin: 0 !important;
+}

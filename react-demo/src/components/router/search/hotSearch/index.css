@@ -1,0 +1,32 @@
+/* 搜索页面 */
+#searchPage .hotSearch p{
+    margin: .2rem !important;
+    font-size: .3rem;
+    font-weight: bold;
+}
+#searchPage .hotSearch .hotWord{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#searchPage .hotSearch .hotWord .keyword{
+    width: 20%;
+    height: .6rem;
+    margin: .1rem;
+    line-height: .6rem;
+    background-color: #ccc;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 0.1rem;
+}
+#searchPage .hotSearch .hotWord .keyword span{
+    color: rgb(56, 55, 55);
+    display: inline-block;
+}
+#searchPage .hotSearch .hotWord .keyword:hover{
+    background-color: red;
+    font-size: .2rem;
+}
+#searchPage .hotSearch .hotWord .keyword:hover span{
+    color: #ccc;
+}

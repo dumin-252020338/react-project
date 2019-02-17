@@ -1,0 +1,27 @@
+/* 底部 */
+#footer{
+  position:fixed;
+  bottom: 0;
+  width: 100%;
+  background-color:rgba(0, 142, 255, 1);
+  display:flex;
+  justify-content: space-between;
+  align-items:center;
+  z-index: 9999;
+}
+#footer .footerNav {
+  width: 20%;
+  text-align: center;
+}
+#footer .footerNav p, i{
+  /* color:#fff; */
+}
+#footer .footerNav p{
+  margin: 0 !important;
+}
+#footer .active{  
+  background-color:rgba(0, 142, 255);
+}
+#footer .active p, #footer .active i{
+  color:rgb(0, 0, 0);
+}

@@ -1,0 +1,9 @@
+/* 抢购栏 */
+#scarebuy{
+  display: flex;
+  justify-content:space-between;
+  overflow: hidden;
+}
+#scarebuy img{
+  height: 3rem;
+}

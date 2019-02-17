@@ -1,0 +1,29 @@
+#teaDetail{
+    color: #000;
+}
+#teaDetail p{
+    margin-bottom: .1rem !important;
+}
+#teaDetail li{
+    display: flex;
+    border-bottom: .01rem solid;
+}
+#teaDetail li .left{
+    width: 40%;
+    border-right: .01rem solid;
+}
+#teaDetail li .right{
+    width: 60%;
+    margin: .2rem auto;
+    text-align: center;
+}
+#teaDetail li .right p{
+    font-size: .3rem;
+}
+#teaDetail li a {
+    color: #000;
+}
+#teaDetail img{
+    height: 1.7rem;
+    margin: .1rem;
+}
